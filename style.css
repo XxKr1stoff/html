@@ -12,8 +12,6 @@ body {
   display: flex;
   background-color: #f8f5f0;
   min-width: 500px;
-
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #sidebar {
@@ -44,10 +42,7 @@ body {
   text-align: left;
   padding-left: 22px;
 
-  font-family:
-    inherit Arial,
-    Helvetica,
-    sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 
   font-size: 18px;
   cursor: pointer;
@@ -62,6 +57,11 @@ body {
 }
 
 .sideButton p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
   margin: 0;
 }
 
@@ -80,6 +80,7 @@ body {
   font-size: 25px;
   font-weight: 750;
   letter-spacing: -0.5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .popularOffer {
@@ -88,10 +89,7 @@ body {
   background-color: #ffffff;
   border: #f0ebe4 solid 1px;
   margin: 20px;
-  justify-self: center;
   cursor: pointer;
-  transition: scale 0.22s;
-  justify-content: center;
   border-radius: 18px;
 
   overflow: hidden;
@@ -106,12 +104,41 @@ body {
   box-shadow: 0px 12px 28px rgb(56 42 22 / 13%);
 }
 
+.seasonalOffer {
+  width: 250px;
+  min-height: 350px;
+  background-color: #ffffff;
+  border: #f0ebe4 solid 1px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  transition:
+    box-shadow 0.22s,
+    transform 0.22s;
+}
+
+.seasonalOffer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 28px rgb(56 42 22 / 13%);
+}
+
 #offers {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 45px;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+#seasonalOffers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
 .FoodImg {
@@ -123,6 +150,7 @@ body {
 }
 
 .FoodName {
+  min-height: 120px;
   color: #292520;
   border-top: #f0ebe4 solid 1px;
   font-weight: bold;
