@@ -5,24 +5,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzeria</title>
-    <link rel="icon" href="./assets/logo.png?" />
+    <link rel="icon" href="./assets/logo.png" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <nav id="sidebar">
       <button class="sideButton">
-        <p>Pizzas</p>
+        <span>Pizzas</span>
       </button>
       <button class="sideButton">
-        <p>Pastas</p>
+        <span>Pastas</span>
       </button>
-      <button class="sideButton">Drinks</button>
+      <button class="sideButton">
+        <span>Drinks</span>
+      </button>
     </nav>
-    <nav id="mainContent">
+    <main id="mainContent">
       <div class="top">Popular Offers</div>
       <div id="offers">
         <button class="popularOffer">
-          <img class="FoodImg" src="./assets/peperoni.png" />
+          <img
+            class="FoodImg"
+            src="./assets/peperoni.png"
+            alt="Pizza peperoni"
+          />
           <div class="FoodName">
             <h4>Pizza peperoni</h4>
             <h5>small-5$</h5>
@@ -32,20 +38,30 @@
         </button>
 
         <button class="popularOffer">
-          <img class="FoodImg" src="./assets/margherita.png" />
+          <img
+            class="FoodImg"
+            src="./assets/margherita.png"
+            alt="Pizza margherita"
+          />
           <div class="FoodName">
             <h4>Pizza margherita</h4>
-            <h5>small-5$</h5>
-            <h5>medium-7.5$</h5>
-            <h5>large-10$</h5>
+            <h5>small-4$</h5>
+            <h5>medium-7$</h5>
+            <h5>large-9.5$</h5>
           </div>
         </button>
 
         <button class="popularOffer">
-          <img class="FoodImg" src="./assets/bolognese.png" />
+          <img
+            class="FoodImg"
+            src="./assets/bolognese.png"
+            alt="Spaghetti bolognese"
+          />
           <div class="FoodName">
             <h4>Spaghetti bolognese</h4>
             <h5>regular-7.5$</h5>
+            <h5>ㅤ</h5>
+            <h5>ㅤ</h5>
           </div>
         </button>
       </div>
@@ -53,15 +69,19 @@
       <div class="top">Seasonal Offers</div>
       <div id="seasonalOffers">
         <button class="seasonalOffer">
-          <img class="FoodImg" src="./assets/mushroom.png" />
+          <img
+            class="FoodImg"
+            src="./assets/mushroom.png"
+            alt="Mushroom pizza"
+          />
           <div class="FoodName">
             <h4>Mushroom pizza</h4>
-            <h5>small-5$</h5>
-            <h5>medium-7.5$</h5>
-            <h5>large-10$</h5>
+            <h5>small-5.5$</h5>
+            <h5>medium-8.5$</h5>
+            <h5>large-11$</h5>
           </div>
         </button>
       </div>
-    </nav>
+    </main>
   </body>
 </html>
