@@ -69,6 +69,7 @@ button {
   flex: 1;
   margin-left: 200px;
   padding: 30px;
+  padding-top: 0px;
 }
 
 .top {
@@ -81,6 +82,39 @@ button {
   font-weight: 750;
   letter-spacing: -0.5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topButtons {
+  width: 100%;
+  padding: 15px;
+  color: #292520;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-bottom: 50px;
+  border-bottom: #bdbcbc solid 2px;
+}
+
+#topButtons button {
+  border: #f0ebe4 solid 1px;
+  width: 95px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 12%;
+  cursor: pointer;
+  transition: transform 0.22s;
+}
+
+#topButtons button:hover {
+  transform: translateY(-2px);
+}
+
+#register {
+  background-color: greenyellow;
+}
+
+#logIn {
+  background-color: rgb(215, 215, 215);
 }
 
 .popularOffer,
