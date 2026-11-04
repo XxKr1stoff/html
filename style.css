@@ -96,11 +96,9 @@ button {
 }
 
 #topButtons button {
-  border: #f0ebe4 solid 1px;
   width: 95px;
   height: 50px;
   font-size: 16px;
-  border-radius: 12%;
   cursor: pointer;
   transition: transform 0.22s;
 }
@@ -111,10 +109,14 @@ button {
 
 #register {
   background-color: greenyellow;
+  border: #f0ebe4 solid 1px;
+  border-radius: 12%;
 }
 
 #logIn {
   background-color: rgb(215, 215, 215);
+  border: #f0ebe4 solid 1px;
+  border-radius: 12%;
 }
 
 .popularOffer,
@@ -189,7 +191,10 @@ button {
   min-width: 125px;
   max-width: 125px;
   margin-right: auto;
+  background: transparent;
 
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
+
+  border: none;
 }
