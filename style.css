@@ -105,8 +105,8 @@ button {
   transition: transform 0.22s;
 }
 
-#topButtons button:hover {
-  transform: translateY(-2px);
+#register:hover {
+  background-color: rgb(154, 228, 43);
 }
 
 #register {
@@ -176,4 +176,20 @@ button {
   margin: 6px 0px;
   font-size: 14px;
   color: #71685d;
+}
+
+#mainLogo img {
+  max-width: 40px;
+}
+
+#mainLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 125px;
+  max-width: 125px;
+  margin-right: auto;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
 }
